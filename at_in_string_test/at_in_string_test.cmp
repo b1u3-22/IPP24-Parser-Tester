@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program language="IPPcode24">
-        <instruction order="1" opcode="WRITE">
-                <arg1 type="string">ahojtadyprommenna\010GFa</arg1>
-        </instruction>
+	<instruction order="1" opcode="WRITE">
+		<arg1 type="string">ahoj@tady@prommenna\010GF@a</arg1>
+	</instruction>
 </program>
+
