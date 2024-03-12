@@ -1,0 +1,17 @@
+.IPPcode24
+MOVE
+MOVE GF@a
+MOVE string@5 int@6
+MOVE LF@a string@5 int@6
+STRLEN
+STRLEN GF@a
+STRLEN string@5 int@6
+STRLEN LF@a string@5 int@6
+TYPE
+TYPE GF@a
+TYPE string@5 int@6
+TYPE LF@a string@5 int@6
+INT2CHAR
+INT2CHAR GF@a
+INT2CHAR string@5 int@6
+INT2CHAR LF@a string@5 int@6

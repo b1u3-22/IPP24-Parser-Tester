@@ -1,0 +1,4 @@
+.IPPcode24
+READ GF@a int
+READ TF@b string
+READ LF@c bool

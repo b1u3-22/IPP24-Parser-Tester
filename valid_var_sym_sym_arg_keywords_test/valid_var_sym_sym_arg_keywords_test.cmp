@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode24">
+        <instruction order="1" opcode="ADD">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="2" opcode="ADD">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="3" opcode="ADD">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="4" opcode="ADD">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="5" opcode="SUB">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="6" opcode="SUB">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="7" opcode="SUB">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="8" opcode="SUB">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="9" opcode="MUL">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="10" opcode="MUL">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="11" opcode="MUL">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="12" opcode="MUL">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="13" opcode="IDIV">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="14" opcode="IDIV">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="15" opcode="IDIV">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="16" opcode="IDIV">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="17" opcode="LT">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="18" opcode="LT">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="19" opcode="LT">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="20" opcode="LT">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="21" opcode="GT">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="22" opcode="GT">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="23" opcode="GT">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="24" opcode="GT">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="25" opcode="EQ">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="26" opcode="EQ">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="27" opcode="EQ">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="28" opcode="EQ">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="29" opcode="AND">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="30" opcode="AND">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="31" opcode="AND">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="32" opcode="AND">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="33" opcode="OR">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="34" opcode="OR">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="35" opcode="OR">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="36" opcode="OR">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="37" opcode="NOT">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="38" opcode="NOT">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="39" opcode="NOT">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="40" opcode="NOT">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="41" opcode="STRI2INT">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="42" opcode="STRI2INT">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="43" opcode="STRI2INT">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="44" opcode="STRI2INT">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="45" opcode="CONCAT">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="46" opcode="CONCAT">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="47" opcode="CONCAT">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="48" opcode="CONCAT">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="49" opcode="GETCHAR">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="50" opcode="GETCHAR">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="51" opcode="GETCHAR">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="52" opcode="GETCHAR">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+        <instruction order="53" opcode="SETCHAR">
+                <arg1 type="var">GF@a</arg1>
+                <arg2 type="var">GF@a</arg2>
+                <arg3 type="var">GF@a</arg3>
+        </instruction>
+        <instruction order="54" opcode="SETCHAR">
+                <arg1 type="var">TF@b</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="var">GF@c</arg3>
+        </instruction>
+        <instruction order="55" opcode="SETCHAR">
+                <arg1 type="var">LF@d</arg1>
+                <arg2 type="var">TF@a</arg2>
+                <arg3 type="string">henlo</arg3>
+        </instruction>
+        <instruction order="56" opcode="SETCHAR">
+                <arg1 type="var">GF@e</arg1>
+                <arg2 type="int">548</arg2>
+                <arg3 type="bool">false</arg3>
+        </instruction>
+</program>

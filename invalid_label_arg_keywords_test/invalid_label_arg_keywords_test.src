@@ -1,0 +1,13 @@
+.IPPcode24
+CALL
+CALL GF@a
+CALL string
+CALL string@bonjour
+LABEL
+LABEL TF@b
+LABEL int
+LABEL int@5
+JUMP
+JUMP bool
+JUMP bool@false
+JUMP LF@c

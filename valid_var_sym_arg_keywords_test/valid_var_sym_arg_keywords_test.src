@@ -1,0 +1,9 @@
+.IPPcode24
+MOVE GF@a TF@b
+MOVE GF@a int@6
+STRLEN TF@b GF@c
+STRLEN LF@a string@henlo
+TYPE GF@a int@78
+TYPE TF@b GF@c
+INT2CHAR GF@a int@42
+INT2CHAR TF@b GF@c

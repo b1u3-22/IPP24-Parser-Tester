@@ -1,0 +1,4 @@
+.IPPcode24
+WRITE int@henlo
+WRITE int@*5
+WRITE int@true

@@ -1,0 +1,112 @@
+.IPPcode24
+ADD
+ADD TF@b
+ADD int@49
+ADD LF@a int@49
+ADD int@49 int@49 int@49
+ADD LF@d int@49 string@henlo LF@a
+ADD GF@e int bool@false
+
+SUB
+SUB TF@b
+SUB int@49
+SUB LF@a int@49
+SUB int@49 int@49 int@49
+SUB LF@d int@49 string@henlo LF@a
+SUB GF@e int bool@false
+
+MUL
+MUL TF@b
+MUL int@49
+MUL LF@a int@49
+MUL int@49 int@49 int@49
+MUL LF@d int@49 string@henlo LF@a
+MUL GF@e int bool@false
+
+IDIV
+IDIV TF@b
+IDIV int@49
+IDIV LF@a int@49
+IDIV int@49 int@49 int@49
+IDIV LF@d int@49 string@henlo LF@a
+IDIV GF@e int bool@false
+
+LT
+LT TF@b
+LT int@49
+LT LF@a int@49
+LT int@49 int@49 int@49
+LT LF@d int@49 string@henlo LF@a
+LT GF@e int bool@false
+
+GT
+GT TF@b
+GT int@49
+GT LF@a int@49
+GT int@49 int@49 int@49
+GT LF@d int@49 string@henlo LF@a
+GT GF@e int bool@false
+
+EQ
+EQ TF@b
+EQ int@49
+EQ LF@a int@49
+EQ int@49 int@49 int@49
+EQ LF@d int@49 string@henlo LF@a
+EQ GF@e int bool@false
+
+AND
+AND TF@b
+AND int@49
+AND LF@a int@49
+AND int@49 int@49 int@49
+AND LF@d int@49 string@henlo LF@a
+AND GF@e int bool@false
+
+OR
+OR TF@b
+OR int@49
+OR LF@a int@49
+OR int@49 int@49 int@49
+OR LF@d int@49 string@henlo LF@a
+OR GF@e int bool@false
+
+NOT
+NOT TF@b
+NOT int@49
+NOT LF@a int@49
+NOT int@49 int@49 int@49
+NOT LF@d int@49 string@henlo LF@a
+NOT GF@e int bool@false
+
+STR2INT
+STR2INT TF@b
+STR2INT int@49
+STR2INT LF@a int@49
+STR2INT int@49 int@49 int@49
+STR2INT LF@d int@49 string@henlo LF@a
+STR2INT GF@e int bool@false
+
+CONCAT
+CONCAT TF@b
+CONCAT int@49
+CONCAT LF@a int@49
+CONCAT int@49 int@49 int@49
+CONCAT LF@d int@49 string@henlo LF@a
+CONCAT GF@e int bool@false
+
+GETCHAR
+GETCHAR TF@b
+GETCHAR int@49
+GETCHAR LF@a int@49
+GETCHAR int@49 int@49 int@49
+GETCHAR LF@d int@49 string@henlo LF@a
+GETCHAR GF@e int bool@false
+
+SETCHAR
+SETCHAR TF@b
+SETCHAR int@49
+SETCHAR LF@a int@49
+SETCHAR int@49 int@49 int@49
+SETCHAR LF@d int@49 string@henlo LF@a
+SETCHAR GF@e int bool@false

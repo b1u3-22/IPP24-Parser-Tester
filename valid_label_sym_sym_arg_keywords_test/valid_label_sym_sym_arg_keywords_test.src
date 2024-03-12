@@ -1,0 +1,9 @@
+.IPPcode24
+JUMPIFEQ label1 TF@a GF@b
+JUMPIFEQ label2 string@a GF@b
+JUMPIFEQ label3 TF@a string@b
+JUMPIFEQ label1 int@548 bool@false
+JUMPIFNEQ label1 TF@a GF@b
+JUMPIFNEQ label2 string@a GF@b
+JUMPIFNEQ label3 TF@a string@b
+JUMPIFNEQ label1 int@548 bool@false

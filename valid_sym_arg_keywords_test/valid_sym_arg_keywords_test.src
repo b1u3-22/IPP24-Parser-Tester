@@ -1,0 +1,9 @@
+.IPPcode24
+PUSHS GF@a
+PUSHS int@5
+WRITE LF@b
+WRITE string@henlo
+EXIT TF@c
+EXIT bool@true
+DPRINT TF@c
+DPRINT string@whatisdprint

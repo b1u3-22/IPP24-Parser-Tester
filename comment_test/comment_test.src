@@ -1,0 +1,9 @@
+# comment at the start of the file
+.IPPcode24 # inline comment
+DEFVAR GF@a#another one
+
+# comment between empty lines
+
+DEFVAR LF@b
+
+# empty line at the end of the file
