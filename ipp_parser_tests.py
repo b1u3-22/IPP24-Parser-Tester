@@ -186,6 +186,10 @@ def test_krivka_write():
     base("krivka_write_test")
 
 
+def test_krivka_string():
+    base("krivka_string_test")
+
+
 def test_invalid_keyword():
     base("invalid_keyword_test",
          compare=False,
@@ -318,7 +322,8 @@ def test_valid_var_sym_sym_arg_keywords():
 
                                     ("STRI2INT", 71), ("STRI2INT TF@b", 72), ("STRI2INT int@49", 73),
                                     ("STRI2INT LF@a int@49", 74),
-                                    ("STRI2INT int@49 int@49 int@49", 75), ("STRI2INT LF@d int@49 string@henlo LF@a", 76),
+                                    ("STRI2INT int@49 int@49 int@49", 75),
+                                    ("STRI2INT LF@d int@49 string@henlo LF@a", 76),
                                     ("STRI2INT GF@e int bool@false", 77),
 
                                     ("CONCAT", 78), ("CONCAT TF@b", 79), ("CONCAT int@49", 80),
