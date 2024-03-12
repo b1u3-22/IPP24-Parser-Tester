@@ -1,17 +1,11 @@
 # Tests for parser of IPPcode24 language
 ## How to get it going
-### Required packaged
-1. pytest >= 8.1.1
-2. xmldiff >= 2.6.3
-### Placement
-Unzip the `tests.zip` file and place the `tests` dir into
-the same one as your `parse.py` script
-### Running
-1. Ender the dir `tests`. 
+1. Clone this repository to the same directory as your `parse.py` script
 2. Start the tests by running following command:
 ```
-pytest ipp_parser_tests.py
+bash ./test.sh
 ```
+> You mind need to install `python3.10-venv` package
 
 ## Test structure
 Test files are separated into three different files:
